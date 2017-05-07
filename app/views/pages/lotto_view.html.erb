@@ -1,0 +1,7 @@
+<h1>Your lottery numbers are...</h1>
+<ul>
+  <% @lotto.each do |number| %>
+    <li><%= number %></li>
+  <% end %>
+</ul>
+<p><%= @count %></p>
